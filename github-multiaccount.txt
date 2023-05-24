@@ -1,0 +1,12 @@
+ssh-keygen -t rsa -C "<github-login-email>" -f "github-<usename>"
+
+cat ~/.ssh/config
+#jdaunds_jcplc account
+Host github.com-<username>
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github-<username>
+   IdentitiesOnly yes
+
+git clone git@github.com-<github-username>:jci-products/ds-polaris-cd.git
+git clone git@github.com-jdaunds_jcplc:jci-products/ds-polaris-cd.git
