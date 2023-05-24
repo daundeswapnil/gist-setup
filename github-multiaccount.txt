@@ -8,5 +8,5 @@ Host github.com-<username>
    IdentityFile ~/.ssh/github-<username>
    IdentitiesOnly yes
 
-git clone git@github.com-<github-username>:jci-products/ds-polaris-cd.git
-git clone git@github.com-jdaunds_jcplc:jci-products/ds-polaris-cd.git
+git clone git@github.com-<github-username>:<githubrepo-username>/<repo-name>.git
+git clone git@github.com-daundeswapnil:daundeswapnil/gist-setup.git
